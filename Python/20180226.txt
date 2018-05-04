@@ -1,0 +1,12 @@
+I.
+对python而言
+
+其一, 在不加括号时候, and优先级大于or
+
+其二, x or y 的值只可能是x或y.  x为真就是x, x为假就是y
+
+第三, x and y 的值只可能是x或y.  x为真就是y, x为假就是x
+
+
+II.
+if __name__=='__main__'
