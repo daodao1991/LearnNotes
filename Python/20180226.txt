@@ -1,11 +1,11 @@
 I.
-¶Ôpython¶øÑÔ
+å¯¹pythonè€Œè¨€
 
-ÆäÒ», ÔÚ²»¼ÓÀ¨ºÅÊ±ºò, andÓÅÏÈ¼¶´óÓÚor
+å…¶ä¸€, åœ¨ä¸åŠ æ‹¬å·æ—¶å€™, andä¼˜å…ˆçº§å¤§äºŽor
 
-Æä¶þ, x or y µÄÖµÖ»¿ÉÄÜÊÇx»òy.  xÎªÕæ¾ÍÊÇx, xÎª¼Ù¾ÍÊÇy
+å…¶äºŒ, x or y çš„å€¼åªå¯èƒ½æ˜¯xæˆ–y.  xä¸ºçœŸå°±æ˜¯x, xä¸ºå‡å°±æ˜¯y
 
-µÚÈý, x and y µÄÖµÖ»¿ÉÄÜÊÇx»òy.  xÎªÕæ¾ÍÊÇy, xÎª¼Ù¾ÍÊÇx
+ç¬¬ä¸‰, x and y çš„å€¼åªå¯èƒ½æ˜¯xæˆ–y.  xä¸ºçœŸå°±æ˜¯y, xä¸ºå‡å°±æ˜¯x
 
 
 II.
