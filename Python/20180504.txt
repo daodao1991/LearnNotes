@@ -1,0 +1,46 @@
+I.any()和all()用法
+
+
+
+#any(x)判断x对象是否为空对象，如果都为空、0、false，则返回false，如果不都为空、0、false，则返回true
+
+#all(x)如果all(x)参数x对象的所有元素不为0、''、False或者x为空对象，则返回True，否则返回False
+
+any()是有一个真则为真，all()是有一个假则为假
+
+
+>>> any((0,False,''))
+False
+>>> any([0,'0',''])
+True
+
+>>> all(('a', 'b', '', 'd'))  #元组tuple，存在一个为空的元素
+False
+>>> all([]) # 空列表
+True
+>>> all(()) # 空元组
+True
+>>> all('')
+True
+>>> #注意：空元组、空列表、空字符串返回值为True，这里要特别注意
+
+
+
+
+II.dict.fromkeys()
+
+	fromkeys()方法从序列键和值设置为value来创建一个新的字典
+
+	dict.fromkeys(seq[, value]))
+
+	seq -- 这是将用于字典的键准备的值的列表。
+        value -- 这是可选的，如果提供的话则值将被设置为这个值,如何不提供则默认为None
+
+>>> seq = ('name', 'age', 'sex')
+>>> dict = dict.fromkeys(seq)
+>>> print "New Dictionary : %s" % str(dict)
+
+运行结果为：
+New Dictionary : {'age': None, 'name': None, 'sex': None}
+
+
